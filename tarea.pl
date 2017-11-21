@@ -1,4 +1,4 @@
-//%   EJERCICIO1  MONTY PYTHON AND THE HOLY GRAIL(1975)   %//
+﻿//%   EJERCICIO1  MONTY PYTHON AND THE HOLY GRAIL(1975)   %//
 witch(X)  :- burns(X),female(X). 
 burns(X)  :- wooden(X). 
 wooden(X) :- floats(X). 
@@ -59,7 +59,7 @@ hombre(Pedro).      %yo%
 hombre(Antonio).    %padre%
 hombre(Francisco).  %abuelo_p%
 hombre(Milo).       %abuelo_m%
-hombre(Christopher);%hermano%
+hombre(Christopher); %hermano%
 mujer(Bertha).      %abuela_m%
 mujer(Josefina).    %abuela_p%
 mujer(Cecilia).     %madre%
