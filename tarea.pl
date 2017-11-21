@@ -59,7 +59,7 @@ hombre(Pedro).      %yo%
 hombre(Antonio).    %padre%
 hombre(Francisco).  %abuelo_p%
 hombre(Milo).       %abuelo_m%
-hombre(Christopher); %hermano%
+hombre(Christopher).%hermano%
 mujer(Bertha).      %abuela_m%
 mujer(Josefina).    %abuela_p%
 mujer(Cecilia).     %madre%
