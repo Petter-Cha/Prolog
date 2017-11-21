@@ -63,7 +63,8 @@ viaje(W,X,Y,Z):-transporte(W,A),alojamiento(Y,W,C),B is C*X,Z is A+B.
 /abuela_m/  mujer(Bertha).
 /abuela_p/  mujer(Josefina).
 /madre/     mujer(Cecilia).
-/hermana/   mujer(Ilse).
+/hermana/  
+mujer(Ilse).
 progenitor(Antonio,Pedro).
 progenitor(Antonio,Chritopher).
 progenitor(Antonio,Ilse).
