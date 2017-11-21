@@ -55,15 +55,15 @@ viaje(W,X,Y,Z):-transporte(W,A),alojamiento(Y,W,C),B is C*X,Z is A+B.
 
 /%   EJERCICIO #5    ARBOL GENIALOGICO%/
 
-/yo/        hombre(Pedro).      
-/padre/     hombre(Antonio).
-/abuelo_p/  hombre(Francisco).
-/abuelo_m/  hombre(Milo).
-/hermano/   hombre(Christopher);
-/abuela_m/  mujer(Bertha).
-/abuela_p/  mujer(Josefina).
-/madre/     mujer(Cecilia).
- mujer(Ilse). %hermana% 
+hombre(Pedro).      %yo%
+hombre(Antonio).    %padre%
+hombre(Francisco).  %abuelo_p%
+hombre(Milo).       %abuelo_m%
+hombre(Christopher);%hermano%
+mujer(Bertha).      %abuela_m%
+mujer(Josefina).    %abuela_p%
+mujer(Cecilia).     %madre%
+mujer(Ilse).        %hermana% 
 progenitor(Antonio,Pedro).
 progenitor(Antonio,Chritopher).
 progenitor(Antonio,Ilse).
