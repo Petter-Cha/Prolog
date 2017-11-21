@@ -78,6 +78,7 @@ pareja(Francisco,Josefina).
 pareja(Milo,Bertha).
 pareja(Antonio,Cecilia).
 
+/Preguntas/
 marido(X,Y):-pareja(X,Y),hombre(X).
 esposa(X,Y):-pareja(X,Y),mujer(X).
 padre(X,Y):-progenitor(X,Y),hombre(X).
@@ -93,6 +94,26 @@ nieta(X,Y):-progenitor(Y,Z),progenitor(Z,X),mujer(X).
 
 
 
+/    EJERCICIO #6  RED SEMANTICA   /
+
+puede(ANIMAL,respirar).
+es_un(MAMIFERO,ANIMAL).
+es_un(AVE,ANIMAL).
+es_un(TIGRE, MAMIFERO).
+es_un(BALLENA, MAMIFERO).
+tiene(MAMIFERO,pelo).
+da(MAMIFERO,leche).
+come(TIGRE,carne).
+tiene(BALLENA,piel).
+vieve_en(BALLENA,mar).
+es_un(AVESTRUZ, AVE).
+es_un(ALBATROS, AVE).
+vuela(ALBATROS,muy_bien).
+vuela(AVESTRUZ,no_puede).
+patas(AVESTRUZ,largas).
+vuela(AVE,bien).
+tiene(AVE,plumas).
+pone(AVE,huevos).
 
 
 /%   EJERCICIO #7 HOROSCOPO  %/
